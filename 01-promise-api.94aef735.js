@@ -1,2 +1,0 @@
-new Promise(((o,e)=>{const l=Math.random()>.5;setTimeout((()=>{l&&o("Промис выполнился успешно, с результатом (исполнен, fulfilled)"),e("Промис выполнился с ошибкой (отклонён, rejected)")}),1e3)})).then((function(o){console.log("onFulfilled -> onFulfilled"),console.log(`✅ ${o}`)})).then((o=>{throw console.log(o),new Error("Error in second then")})).then((o=>{console.log(o)})).catch((o=>console.log(o)));
-//# sourceMappingURL=01-promise-api.94aef735.js.map
