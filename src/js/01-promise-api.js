@@ -19,7 +19,7 @@
 
 // promise.then(onFullFilled, onRejected);
 
-// function onFulfilled(result) {
+// function onFullFilled(result) {
 //   console.log('onFulfilled -> onFulfilled');
 //   console.log(`✅ ${result}`);
 // }
@@ -30,7 +30,7 @@
 // }
 
 // promise
-//   .then(onFulfilled)
+//   .then(onFullFilled)
 //   .then(x => {
 //     console.log(x);
 
